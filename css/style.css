@@ -1,0 +1,23 @@
+img{
+    border: 5px solid rgb(142, 198, 226);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50%;
+    border: 2px solid black;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: borde-box;
+}
+
+
+@media screen and (min-width: 1000px){
+    .grid{
+        grid-template-columns: 45% 45%;
+    }
+}
